@@ -1,0 +1,297 @@
+#cabecalho{
+    width: 80%;
+    height: 30vh;
+    margin: 0 auto;
+   /* margin-left: 10vw;
+    margin-right: 10vw;*/
+    background-image:url('img/logo.png');
+    background-size: contain;
+    background-repeat:no-repeat;
+    
+}
+#receita
+{
+
+     width: 80%;
+     height: 20vh;
+     margin: 0 auto;
+     margin-top: 20px;
+     border-style: solid;
+     border-color: black;
+     border-width: 1px;
+     
+     
+}
+input /* imput de receitas*/
+{ 
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin: 10px 20px 10px 20px;
+    border-radius: 25px;
+    padding: 15px;
+    text-align: center;
+}
+#h1
+{
+   text-align: center;
+   margin: 0;
+}
+
+#sectionR /*section de receitas*/
+{
+    display: inline-block;
+   
+}
+
+#labelR /*label de receitas*/
+{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+img 
+{
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin: 2% 5% 2% 5%;
+   
+}
+#despesa
+{
+    width: 35vw;
+    height: 100vh;
+    margin-left: 10vw;
+    margin-top: 20px;
+    position: absolute; 
+    border-style: solid;
+    border-color:rgb(219, 230, 240);
+    border-width: 1px;
+   
+   
+}
+#imputM
+{
+    width: 100%;
+    height: 50%;
+  
+}
+.titulo
+{
+    color: white;
+    margin: 0;
+    padding: 20px;
+ 
+}
+#moradia{
+    height: 20%;
+}
+#tituloMoradia
+{
+    margin: 0;
+    width: 100%;
+    height: 50%;
+    background-color: rgb(223, 90, 90);
+    
+}
+#alimentacao
+{
+    height: 20%;
+}
+#tituloAlimentacao
+{
+    width: 100%;
+    height: 50%;
+    background-color: rgb(43, 158, 235);
+  
+}
+#saude
+{
+    height: 20%;
+}
+#tituloSaude
+{
+    width: 100%;
+    height: 50%;
+    background-color: rgb(222, 224, 54);
+    
+}
+#transporte
+{
+    height: 20%;
+}
+#tituloTransporte
+{
+    width: 100%;
+    height: 50%;
+    background-color: rgb(181, 148, 219);
+    
+}
+#educacao
+{
+    height: 20%;
+}
+#tituloEducacao
+{
+    width: 100%;
+    height: 50%;
+    background-color: rgb(70, 6, 143);
+   
+}
+
+#resumo
+{
+    width: 35vw;;
+    height: 50%;
+    position: relative;
+    float: right;
+    margin-right: 10vw;
+    margin-top: 20px;
+    border-style: solid;
+    border-color: rgb(219, 230, 240);
+    border-width: 1px;
+   
+}
+#tituloResumo
+{
+    width: 100%;
+    height: 10%;
+    background-color: rgb(219, 230, 240);
+    
+}
+
+/* estilização da parte de resumo das despesas  */
+#Rmoradia
+{
+    margin: 5px 0px 5px 5px;
+    color: rgb(223, 90, 90);
+}
+#Pmoradia
+{
+    
+    margin: 5px 0px 0px 10px;
+    height: 10px;
+    float: left;
+    position: static;
+}
+
+#Vmoradia
+{
+    margin: 5px 20px 5px 5px;
+    height: 10px;
+    float: right;
+    position: relative;
+}
+#Ralimentacao
+{
+    margin: 5px 0px 5px 5px;
+    padding-top: 30px;
+    color: rgb(43, 158, 235);
+}
+#Palimentacao
+{
+    margin: 5px 0px 0px 10px;
+    height: 10px;
+    float: left;
+    position: static;
+}
+#Valimentacao
+{
+    margin: 5px 20px 5px 5px;
+    height: 10px;
+    float: right;
+    position: relative;
+}
+#Rsaude
+{
+    margin: 5px 0px 5px 5px;
+    padding-top: 30px;
+    color: rgb(222, 224, 54);
+}
+#Psaude
+{
+    margin: 5px 0px 0px 10px;
+    height: 10px;
+    float: left;
+    position: static;
+}
+#Vsaude
+{
+    margin: 5px 20px 5px 5px;
+    height: 10px;
+    float: right;
+    position: relative;
+}
+#Rtransporte
+{
+    margin: 5px 0px 5px 5px;
+    padding-top: 30px;
+    color: rgb(181, 148, 219);
+}
+#Ptransporte
+{
+    margin: 5px 0px 0px 10px;
+    height: 10px;
+    float: left;
+    position: static;
+}
+#Vtransporte
+{
+    margin: 5px 20px 5px 5px;
+    height: 10px;
+    float: right;
+    position: relative;
+}
+
+#Reducacao
+{
+    margin: 5px 0px 5px 5px;
+    padding-top: 30px;
+    color: rgb(70, 6, 143);
+}
+#Peducacao
+{
+    margin: 5px 0px 0px 10px;
+    height: 10px;
+    float: left;
+    position: static;
+}
+#Veducacao
+{
+    margin: 5px 20px 5px 5px;
+    height: 10px;
+    float: right;
+    position: relative;
+}
+
+/* estilização da parte de resumo das despesas  */
+/* ------------------------------------------------------------ */
+
+
+
+/* ------------------------------------------------------------ */
+#saldo
+{
+    
+    color: white;
+    background-color: #8CC63F;
+    font-size:large;
+    text-align: center;
+    font-weight: bold;
+}
+#saldonegativo
+{
+    color: white;
+    text-align: center;
+    background-color:#C45163;
+     font-size:large;
+    text-align: center;
+    font-weight: bold;
+}
+#textosaldo{
+    margin-top: 35px;
+}
+#Msaldo
+{
+    margin-bottom: 0px;
+}
